@@ -6,13 +6,13 @@
 <br/>
 <h3>Comments</h3><br/>
 <% @article.comments.each do |f| %>
-      <p>Author: <%= f.author %></p>
+      <p>Author:<i> <%= f.author %></i></p>
       <p>Comment: <%= f.body %></p>
       <br/>
       <hr/>
 <% end %>
 
-  
+<h2>Add Comment</h2>
 <%= form_for([@article, @article.comments.build]) do |f| %>
       <p>
         <%= f.label :author %><br/>
