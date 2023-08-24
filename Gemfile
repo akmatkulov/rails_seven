@@ -73,4 +73,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem "shoulda-matchers"
+  gem "factory_bot_rails"
+  gem "rexml"
 end
