@@ -1,4 +1,6 @@
 
+require 'support/database_cleaner'
+require 'support/session_helper'
 require 'spec_helper'
 
 ENV['RAILS_ENV'] ||= 'test'
